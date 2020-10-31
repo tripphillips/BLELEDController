@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		0D825B0F251679290043F1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B0E251679290043F1B7 /* AppDelegate.swift */; };
 		0D825B11251679290043F1B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B10251679290043F1B7 /* SceneDelegate.swift */; };
-		0D825B13251679290043F1B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B12251679290043F1B7 /* ContentView.swift */; };
+		0D825B13251679290043F1B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B12251679290043F1B7 /* HomeView.swift */; };
 		0D825B152516792A0043F1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D825B142516792A0043F1B7 /* Assets.xcassets */; };
 		0D825B182516792A0043F1B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D825B172516792A0043F1B7 /* Preview Assets.xcassets */; };
 		0D825B1B2516792A0043F1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D825B192516792A0043F1B7 /* LaunchScreen.storyboard */; };
 		0D825B262516792A0043F1B7 /* LEDControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B252516792A0043F1B7 /* LEDControllerTests.swift */; };
 		0D825B312516792A0043F1B7 /* LEDControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B302516792A0043F1B7 /* LEDControllerUITests.swift */; };
+		0D825B4425167DC80043F1B7 /* ColorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B4325167DC80043F1B7 /* ColorButtonStyle.swift */; };
+		0D825B4C25167EF20043F1B7 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B4B25167EF20043F1B7 /* RGBColor.swift */; };
+		0D825B602517B5790043F1B7 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B5F2517B5790043F1B7 /* UIColor+CustomColors.swift */; };
+		0D825B662517B7040043F1B7 /* RGBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B652517B7040043F1B7 /* RGBButton.swift */; };
+		0D825B782517BA1F0043F1B7 /* PatternButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B772517BA1F0043F1B7 /* PatternButtonStyle.swift */; };
+		0D825B7D2517BA550043F1B7 /* RGBPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B7C2517BA550043F1B7 /* RGBPattern.swift */; };
+		0D825B822517BB2E0043F1B7 /* PatternButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B812517BB2E0043F1B7 /* PatternButton.swift */; };
+		0D825B872517BF590043F1B7 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825B862517BF590043F1B7 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,7 @@
 		0D825B0B251679290043F1B7 /* LEDController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D825B0E251679290043F1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D825B10251679290043F1B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D825B12251679290043F1B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D825B12251679290043F1B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0D825B142516792A0043F1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D825B172516792A0043F1B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D825B1A2516792A0043F1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		0D825B2C2516792A0043F1B7 /* LEDControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D825B302516792A0043F1B7 /* LEDControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDControllerUITests.swift; sourceTree = "<group>"; };
 		0D825B322516792A0043F1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D825B4325167DC80043F1B7 /* ColorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonStyle.swift; sourceTree = "<group>"; };
+		0D825B4B25167EF20043F1B7 /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		0D825B5F2517B5790043F1B7 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		0D825B652517B7040043F1B7 /* RGBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBButton.swift; sourceTree = "<group>"; };
+		0D825B772517BA1F0043F1B7 /* PatternButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternButtonStyle.swift; sourceTree = "<group>"; };
+		0D825B7C2517BA550043F1B7 /* RGBPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBPattern.swift; sourceTree = "<group>"; };
+		0D825B812517BB2E0043F1B7 /* PatternButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternButton.swift; sourceTree = "<group>"; };
+		0D825B862517BF590043F1B7 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +117,11 @@
 			children = (
 				0D825B0E251679290043F1B7 /* AppDelegate.swift */,
 				0D825B10251679290043F1B7 /* SceneDelegate.swift */,
-				0D825B12251679290043F1B7 /* ContentView.swift */,
+				0D825B4B25167EF20043F1B7 /* RGBColor.swift */,
+				0D825B862517BF590043F1B7 /* BLEManager.swift */,
+				0D825B7C2517BA550043F1B7 /* RGBPattern.swift */,
+				0D825B4125167D970043F1B7 /* Views */,
+				0D825B702517B7E40043F1B7 /* Extensions */,
 				0D825B142516792A0043F1B7 /* Assets.xcassets */,
 				0D825B192516792A0043F1B7 /* LaunchScreen.storyboard */,
 				0D825B1C2516792A0043F1B7 /* Info.plist */,
@@ -134,6 +154,42 @@
 				0D825B322516792A0043F1B7 /* Info.plist */,
 			);
 			path = LEDControllerUITests;
+			sourceTree = "<group>";
+		};
+		0D825B4125167D970043F1B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D825B12251679290043F1B7 /* HomeView.swift */,
+				0D825B642517B6D70043F1B7 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D825B4225167DB20043F1B7 /* Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0D825B4325167DC80043F1B7 /* ColorButtonStyle.swift */,
+				0D825B772517BA1F0043F1B7 /* PatternButtonStyle.swift */,
+			);
+			path = "Button Styles";
+			sourceTree = "<group>";
+		};
+		0D825B642517B6D70043F1B7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0D825B652517B7040043F1B7 /* RGBButton.swift */,
+				0D825B812517BB2E0043F1B7 /* PatternButton.swift */,
+				0D825B4225167DB20043F1B7 /* Button Styles */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		0D825B702517B7E40043F1B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D825B5F2517B5790043F1B7 /* UIColor+CustomColors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D825B822517BB2E0043F1B7 /* PatternButton.swift in Sources */,
 				0D825B0F251679290043F1B7 /* AppDelegate.swift in Sources */,
+				0D825B4C25167EF20043F1B7 /* RGBColor.swift in Sources */,
+				0D825B662517B7040043F1B7 /* RGBButton.swift in Sources */,
+				0D825B872517BF590043F1B7 /* BLEManager.swift in Sources */,
 				0D825B11251679290043F1B7 /* SceneDelegate.swift in Sources */,
-				0D825B13251679290043F1B7 /* ContentView.swift in Sources */,
+				0D825B13251679290043F1B7 /* HomeView.swift in Sources */,
+				0D825B602517B5790043F1B7 /* UIColor+CustomColors.swift in Sources */,
+				0D825B782517BA1F0043F1B7 /* PatternButtonStyle.swift in Sources */,
+				0D825B4425167DC80043F1B7 /* ColorButtonStyle.swift in Sources */,
+				0D825B7D2517BA550043F1B7 /* RGBPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
